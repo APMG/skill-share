@@ -15,9 +15,8 @@ var config = {
   STREAM_URL: 'www.yourstream.url/goes/here.mp3',
 }
 
-// The first param here is the state name
-// Passing an empty string means the given
-// intents will apply to the default state
+// The first param here is the state name. Passing an empty string
+// means the given intents will apply to the default state
 var stateHandler = skillShare.stateHandler('', [
   skillShare.intents.defaultBuiltIns,
   skillShare.intents.builtInAudio
@@ -71,4 +70,28 @@ var stateHandler = skillShare.stateHandler('', [
 ])
 
 stateHandler.addIntents([myHelpIntent])
+```
+
+## Using Multiple States
+All handlers are passed through `Alexa.CreateStateHandler`. So to have them apply to a state, just give them a state name.
+
+```js
+// index.js
+
+var skillShare = require('skill-share')
+var config = {...}
+
+var fooHandler = skillShare.stateHandler('_FOO_STATE', [...])
+var barHandler = skillShare.stateHandler('_BAR_STATE', [...])
+
+exports.handler = skillShare
+  .skill(config)
+  .addHandler(fooHandler)
+  .addHandler(barHandler)
+  .create()
+```
+
+You can also pass handlers directly to the skill method
+```js
+exports.handler = skillShare.skill(config, [fooHandler, barHandler])
 ```
