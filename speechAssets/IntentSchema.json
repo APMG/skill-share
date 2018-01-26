@@ -1,0 +1,69 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.LoopOffIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.LoopOnIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.NextIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.PauseIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.PreviousIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.ResumeIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.ShuffleOffIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.ShuffleOnIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.StartOverIntent",
+      "samples": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "intent": "AskShowIntent",
+      "slots": []
+    },
+    {
+      "intent": "AskSongIntent",
+      "slots": []
+    },
+    {
+      "intent": "PlayPodcastIntent",
+      "slots": [
+        {
+          "name": "Podcast",
+          "type": "Podcast"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Podcast",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "song of the day",
+              "synonyms": [
+                "podcast song of the day",
+                "the song of the day",
+                "song for today",
+                "today's song",
+                "song for today",
+                "song of the day podcast"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.LoopOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.LoopOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ShuffleOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ShuffleOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AskShowIntent",
+        "samples": [
+          "what show is this",
+          "who is this",
+          "who this is",
+          "who is talking",
+          "who's talking",
+          "what's this show",
+          "who's this host",
+          "who is this host",
+          "who the host is",
+          "who's the d. j.",
+          "who is this d.j.",
+          "who this d.j. is"
+        ],
+        "slots": []
+      },
+      {
+        "name": "AskSongIntent",
+        "samples": [
+          "what song is this",
+          "what song this is",
+          "what song is playing",
+          "what is playing right now",
+          "what is on right now",
+          "what artist is this",
+          "what am I listening to",
+          "what is this",
+          "what this is",
+          "who this band is",
+          "what band this is",
+          "who the artist is",
+          "who this artist is",
+          "who is this artist"
+        ],
+        "slots": []
+      },
+      {
+        "name": "PlayPodcastIntent",
+        "samples": [
+          "Play {Podcast}",
+          "Play the {Podcast} podcast",
+          "Play the {Podcast}"
+        ],
+        "slots": [
+          {
+            "name": "Podcast",
+            "type": "Podcast",
+            "samples": [
+              "{Podcast}",
+              "The {Podcast} podcast",
+              "The {Podcast}",
+              "{Podcast} podcast"
+            ]
+          }
+        ]
+      }
+    ],
+    "invocationName": "mpr"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-PlayPodcastIntent.IntentSlot-Podcast",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Which podcast would you like to hear?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "PlayPodcastIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "Podcast",
+            "type": "Podcast",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-PlayPodcastIntent.IntentSlot-Podcast"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

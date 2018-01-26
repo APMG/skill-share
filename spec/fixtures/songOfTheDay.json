@@ -1,0 +1,103 @@
+{
+  "headers": {
+    "HTTP/1.1": "200 OK",
+    "Server": "Apache",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Request-Id": "0349e9e9-591d-4273-b83f-2cef414053f0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "X-APM-Hostname": "hqwebrubywsprod02",
+    "Status": "200 OK",
+    "Content-Type": "application/xml; charset=utf-8",
+    "Cache-Control": "public, max-age=686",
+    "Expires": "Tue, 02 Jan 2018 22:57:48 GMT",
+    "Date": "Tue, 02 Jan 2018 22:46:22 GMT",
+    "Connection": "keep-alive"
+  },
+  "body": "<rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\">
+    <channel>
+      <title>Song of the Day</title>
+      <link>http://www.thecurrent.org/collection/song-of-the-day</link>
+      <description>Music lovers from 89.3 The Current comb through mountains of music to choose the best new, independent, and unreleased songs to share with you each weekday.</description>
+      <language>en-us</language>
+      <copyright>Copyright 2018 American Public Media</copyright>
+      <ttl>60</ttl>
+      <itunes:author>Minnesota Public Radio</itunes:author>
+      <itunes:summary>Music lovers from 89.3 The Current comb through mountains of music to choose the best new, independent, and unreleased songs to share with you each weekday.</itunes:summary>
+      <itunes:explicit>No</itunes:explicit>
+      <atom:link rel=\"self\" type=\"application/rss+builder\" href=\"https://feeds.publicradio.org/public_feeds/song-of-the-day/rss/rss\"/>
+      <itunes:new-feed-url>http://feeds.publicradio.org/public_feeds/song-of-the-day/itunes/rss</itunes:new-feed-url>
+      <itunes:owner>
+        <itunes:name>Minnesota Public Radio</itunes:name>
+        <itunes:email>mail@mpr.org</itunes:email>
+      </itunes:owner>
+      <itunes:image href=\"https://img.apmcdn.org/3eb126d8a2e5641cdc625b22394616251fab8996/uncropped/c488a4-20160912-the-current-song-of-the-day.jpeg\"/>
+      <itunes:category text=\"Music\"/>
+      <item>
+        <title>Nicole Atkins - Darkness Falls So Quiet</title>
+        <description>
+          <![CDATA[Nicole Atkins - Darkness Falls So Quiet]]>
+        </description>
+        <itunes:subtitle>Nicole Atkins - Darkness Falls So Quiet</itunes:subtitle>
+        <itunes:summary>Nicole Atkins - Darkness Falls So Quiet</itunes:summary>
+        <itunes:author>Minnesota Public Radio</itunes:author>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0600</pubDate>
+        <guid isPermaLink=\"true\">http://www.thecurrent.org/feature/2018/01/02/nicole-atkins-darkness-falls-so-quiet</guid>
+        <enclosure length=\"3642020\" type=\"audio/mpeg\" url=\"https://play.podtrac.com/APM-SongOfTheDay/play.publicradio.org/rss/d/podcast/minnesota/the_current/song_of_the_day/2018/01/02/20180102_nicole_atkins_darkness_falls_128.mp3\"/>
+        <itunes:duration>00:03:47</itunes:duration>
+      </item>
+      <item>
+        <title>Good Luck Finding Iris - Into You</title>
+        <description>
+          <![CDATA[Good Luck Finding Iris - Into You]]>
+        </description>
+        <itunes:subtitle>Good Luck Finding Iris - Into You</itunes:subtitle>
+        <itunes:summary>Good Luck Finding Iris - Into You</itunes:summary>
+        <itunes:author>Minnesota Public Radio</itunes:author>
+        <pubDate>Fri, 29 Dec 2017 00:00:00 -0600</pubDate>
+        <guid isPermaLink=\"true\">http://www.thecurrent.org/feature/2017/12/29/good-luck-finding-iris</guid>
+        <enclosure length=\"4502168\" type=\"audio/mpeg\" url=\"https://play.podtrac.com/APM-SongOfTheDay/play.publicradio.org/rss/d/podcast/minnesota/the_current/song_of_the_day/2017/12/29/20171229_good_luck_finding_iris_into_you_128.mp3\"/>
+        <itunes:duration>00:04:41</itunes:duration>
+      </item>
+      <item>
+        <title>Tricky - New Stole (Feat. Francesca Belmonte)</title>
+        <description>
+          <![CDATA[Tricky - New Stole (Feat. Francesca Belmonte)]]>
+        </description>
+        <itunes:subtitle>Tricky - New Stole (Feat. Francesca Belmonte)</itunes:subtitle>
+        <itunes:summary>Tricky - New Stole (Feat. Francesca Belmonte)</itunes:summary>
+        <itunes:author>Minnesota Public Radio</itunes:author>
+        <pubDate>Thu, 28 Dec 2017 00:00:00 -0600</pubDate>
+        <guid isPermaLink=\"true\">http://www.thecurrent.org/feature/2017/12/28/tricky-new-sole-francesca-belmonte</guid>
+        <enclosure length=\"2983326\" type=\"audio/mpeg\" url=\"https://play.podtrac.com/APM-SongOfTheDay/play.publicradio.org/rss/d/podcast/minnesota/the_current/song_of_the_day/2017/12/28/20171228_tricky_new_sole_128.mp3\"/>
+        <itunes:duration>00:03:06</itunes:duration>
+      </item>
+      <item>
+        <title>Warbly Jets - Alive</title>
+        <description>
+          <![CDATA[Warbly Jets - Alive]]>
+        </description>
+        <itunes:subtitle>Warbly Jets - Alive</itunes:subtitle>
+        <itunes:summary>Warbly Jets - Alive</itunes:summary>
+        <itunes:author>Minnesota Public Radio</itunes:author>
+        <pubDate>Wed, 27 Dec 2017 00:00:00 -0600</pubDate>
+        <guid isPermaLink=\"true\">http://www.thecurrent.org/feature/2017/12/27/warbly-jets-alive</guid>
+        <enclosure length=\"3375322\" type=\"audio/mpeg\" url=\"https://play.podtrac.com/APM-SongOfTheDay/play.publicradio.org/rss/d/podcast/minnesota/the_current/song_of_the_day/2017/12/27/20171227_warbly_jets_alive_128.mp3\"/>
+        <itunes:duration>00:03:30</itunes:duration>
+      </item>
+      <item>
+        <title>Kid Koala - Collapser (Feat. Emiliana Torrini)</title>
+        <description>
+          <![CDATA[Kid Koala - Collapser (Feat. Emiliana Torrini)]]>
+        </description>
+        <itunes:subtitle>Kid Koala - Collapser (Feat. Emiliana Torrini)</itunes:subtitle>
+        <itunes:summary>Kid Koala - Collapser (Feat. Emiliana Torrini)</itunes:summary>
+        <itunes:author>Minnesota Public Radio</itunes:author>
+        <pubDate>Tue, 26 Dec 2017 00:00:00 -0600</pubDate>
+        <guid isPermaLink=\"true\">http://www.thecurrent.org/feature/2017/12/26/kid-koala-collapser-emiliana-torrini</guid>
+        <enclosure length=\"3863552\" type=\"audio/mpeg\" url=\"https://play.podtrac.com/APM-SongOfTheDay/play.publicradio.org/rss/d/podcast/minnesota/the_current/song_of_the_day/2017/12/26/20171226_kid_koala_collapser_emiliana_torrini_128.mp3\"/>
+        <itunes:duration>00:04:01</itunes:duration>
+      </item>
+    </channel>
+  </rss>"
+}

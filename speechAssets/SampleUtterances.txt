@@ -1,0 +1,29 @@
+AskShowIntent what show is this
+AskShowIntent who is this
+AskShowIntent who this is
+AskShowIntent who is talking
+AskShowIntent who's talking
+AskShowIntent what's this show
+AskShowIntent who's this host
+AskShowIntent who is this host
+AskShowIntent who the host is
+AskShowIntent who's the d. j.
+AskShowIntent who is this d.j.
+AskShowIntent who this d.j. is
+AskSongIntent what song is this
+AskSongIntent what song this is
+AskSongIntent what song is playing
+AskSongIntent what is playing right now
+AskSongIntent what is on right now
+AskSongIntent what artist is this
+AskSongIntent what am I listening to
+AskSongIntent what is this
+AskSongIntent what this is
+AskSongIntent who this band is
+AskSongIntent what band this is
+AskSongIntent who the artist is
+AskSongIntent who this artist is
+AskSongIntent who is this artist
+PlayPodcastIntent Play {Podcast}
+PlayPodcastIntent Play the {Podcast} podcast
+PlayPodcastIntent Play the {Podcast}

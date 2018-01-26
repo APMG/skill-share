@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 02 Jan 2018 20:31:29 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "659",
+    "Connection": "keep-alive",
+    "X-Powered-By": "Express",
+    "Access-Control-Allow-Origin": "*",
+    "Last-Modified": "Tue, 02 Jan 2018 20:00:00 GMT"
+  },
+  "body": {
+    "type": "schedule",
+    "service": "the-current",
+    "data": {
+      "schedule": [{
+        "se_id": 429563,
+        "service_id": 1,
+        "start_dtim": "2018-01-02T10:00:00-06:00",
+        "end_dtim": "2018-01-02T14:00:00-06:00",
+        "people": [{
+          "id": 192,
+          "name": "Jade",
+          "link": "http://www.thecurrent.org/about/hosts/jade",
+          "external_link": null,
+          "image": {
+            "id": "dd966b1ebdfb73361ec65958b86cdb77b9386a34",
+            "guid": "dd966b1ebdfb73361ec65958b86cdb77b9386a34",
+            "slug": "20081114-jadetittle",
+            "short_caption": "Jade Tittle",
+            "long_caption": "Jade Tittle",
+            "date_created": "2008-11-14T13:19:54-06:00",
+            "date_updated": "2016-03-30T21:05:13-05:00",
+            "content_area": "MPR Institutional",
+            "credit": {
+              "name": "Minnesota Public Radio",
+              "url": null
+            },
+            "rights": {
+              "notes": "",
+              "source": "APM|MPR",
+              "redistributable": true
+            },
+            "type": "image/jpeg",
+            "thumbnail": {
+              "slug": "thumbnail",
+              "instances": [{
+                "width": 120,
+                "height": 90,
+                "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/thumbnail/81f52c-20081114-jadetittle.jpg"
+              }, {
+                "width": 300,
+                "height": 225,
+                "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/thumbnail/a3aa14-20081114-jadetittle.jpg"
+              }]
+            },
+            "fallback": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/uncropped/84efc1-20081114-jadetittle.jpg",
+            "preferred_aspect_ratio": {
+              "slug": "uncropped",
+              "instances": [{
+                "width": 400,
+                "height": 300,
+                "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/uncropped/123f61-20081114-jadetittle.jpg"
+              }, {
+                "width": 600,
+                "height": 450,
+                "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/uncropped/84efc1-20081114-jadetittle.jpg"
+              }]
+            },
+            "aspect_ratios": {
+              "normal": {
+                "slug": "normal",
+                "instances": [{
+                  "width": 400,
+                  "height": 301,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/normal/235cdc-20081114-jadetittle.jpg"
+                }, {
+                  "width": 600,
+                  "height": 451,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/normal/c85b17-20081114-jadetittle.jpg"
+                }]
+              },
+              "portrait": {
+                "slug": "portrait",
+                "instances": [{
+                  "width": 400,
+                  "height": 500,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/portrait/d046a8-20081114-jadetittle.jpg"
+                }, {
+                  "width": 600,
+                  "height": 750,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/portrait/9398c1-20081114-jadetittle.jpg"
+                }]
+              },
+              "square": {
+                "slug": "square",
+                "instances": [{
+                  "width": 400,
+                  "height": 400,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/square/7ae2f7-20081114-jadetittle.jpg"
+                }, {
+                  "width": 600,
+                  "height": 600,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/square/4a5958-20081114-jadetittle.jpg"
+                }]
+              },
+              "thumbnail": {
+                "slug": "thumbnail",
+                "instances": [{
+                  "width": 120,
+                  "height": 90,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/thumbnail/81f52c-20081114-jadetittle.jpg"
+                }, {
+                  "width": 300,
+                  "height": 225,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/thumbnail/a3aa14-20081114-jadetittle.jpg"
+                }]
+              },
+              "uncropped": {
+                "slug": "uncropped",
+                "instances": [{
+                  "width": 400,
+                  "height": 300,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/uncropped/123f61-20081114-jadetittle.jpg"
+                }, {
+                  "width": 600,
+                  "height": 450,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/uncropped/84efc1-20081114-jadetittle.jpg"
+                }]
+              },
+              "widescreen": {
+                "slug": "widescreen",
+                "instances": [{
+                  "width": 400,
+                  "height": 225,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/widescreen/14da6c-20081114-jadetittle.jpg"
+                }, {
+                  "width": 600,
+                  "height": 337,
+                  "url": "https://img.apmcdn.org/dd966b1ebdfb73361ec65958b86cdb77b9386a34/widescreen/2778fd-20081114-jadetittle.jpg"
+                }]
+              }
+            },
+            "xid": 17317,
+            "status": "active",
+            "tags": [],
+            "dateline": "",
+            "date_taken": "2008-07-25"
+          },
+          "image_link": null,
+          "twitter_handle": "jadeisthename",
+          "mpr_host": true,
+          "active": true,
+          "overridden": false
+        }],
+        "shows": [{
+          "id": 225,
+          "name": "Current Music",
+          "display_name_on_public_site": false,
+          "mpr_show": true,
+          "trademark": null,
+          "description": null,
+          "active": true,
+          "overridden": false,
+          "link": null,
+          "external_link": null,
+          "uses_playlist": true,
+          "uses_send_a_question": false
+        }]
+      }]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "mpr-alexa-base",
+  "version": "0.0.1",
+  "description": "A Base Configurable Set of Alexa Skill Handlers for Streaming Audio",
+  "main": "src/index.js",
+  "author": "Minnesota Public Radio",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "^1.0.14",
+    "electron": "^1.7.9",
+    "got": "^7.1.0",
+    "lodash.get": "^4.4.2",
+    "lodash.isfunction": "^3.0.8",
+    "node-podcast-parser": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bespoken-tools": "^1.2.5",
+    "eslint": "^4.10.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-jest": "^21.2.0",
+    "got-test": "^1.0.2",
+    "jest": "^21.2.1",
+    "nock": "^9.1.5",
+    "node-fixtures": "^0.0.1",
+    "pryjs": "^1.0.3",
+    "virtual-alexa": "^0.3.10",
+    "webpack": "^3.8.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testRegex": "(\\.(test|spec))\\.(js)$"
+  }
+}
