@@ -15,13 +15,13 @@ var config = {
   STREAM_URL: 'www.yourstream.url/goes/here.mp3',
 }
 
-var handler = skillShare.handler('', [
+var stateHandler = skillShare.stateHandler('', [
   skillShare.intents.defaultBuiltIns,
   skillShare.intents.builtInAudio
 ])
 
 exports.handler = skillShare
   .skill(config)
-  .addHandler(handler)
+  .addHandler(stateHandler)
   .create()
 ```

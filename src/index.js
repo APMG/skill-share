@@ -4,7 +4,7 @@ var defaultConfig = require('./default-config')
 
 exports.intents = require('./intents')
 
-exports.handler = function handler(state, intents) {
+exports.stateHandler = function handler(state, intents) {
   return {
     state: state || '',
     intents: intents || [],
