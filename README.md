@@ -8,7 +8,12 @@ In theory you should be able to make a basic streaming skill with the following:
 // index.js
 
 var skillShare = require('skill-share')
-var config = require('./config')
+
+var config = {
+  APP_ID: 'your-app-id',
+  STREAM_NAME: 'Stream Name',
+  STREAM_URL: 'www.yourstream.url/goes/here.mp3',
+}
 
 var handler = skillShare.handler('', [
   skillShare.intents.defaultBuiltIns,
@@ -20,12 +25,3 @@ exports.handler = skillShare
   .addHandler(handler)
   .create()
 ```
-
-```js
-// config.js
-
-module.exports = {
-  APP_ID: 'your-app-id',
-  STREAM_NAME: 'Stream Name',
-  STREAM_URL: 'www.yourstream.url/goes/here.mp3',
-}
