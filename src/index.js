@@ -3,7 +3,6 @@ var get = require('lodash.get')
 
 exports.intents = require('./intents')
 
-
 exports.handler = function handler(state, intents) {
   return {
     state: state || '',
