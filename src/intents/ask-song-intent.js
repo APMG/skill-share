@@ -1,24 +1,7 @@
 var get = require('lodash.get')
 var got = require('got')
-// var speechBuilder = require('../speech-builder')
 
 var config
-// This is just a default for The Current
-var messageSpec = [
-  {
-    beforeText: 'the song',
-    key: 'title'
-  },
-  {
-    beforeText: 'by',
-    key: 'artist'
-  },
-  {
-    beforeText: 'from the album',
-    key: 'album'
-  }
-]
-
 exports.default = function (stationConfig, customMessageSpec) {
   config = stationConfig
   if (customMessageSpec) {
@@ -37,7 +20,6 @@ exports.default = function (stationConfig, customMessageSpec) {
 
 const handler = function(context) {
   return function (response) {
-    var pry = require('pryjs')
     let body = JSON.parse(response.body)
     let songs = get(body, 'data.songs', null)
 
