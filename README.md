@@ -93,5 +93,7 @@ exports.handler = skillShare
 
 You can also pass handlers directly to the skill method
 ```js
-exports.handler = skillShare.skill(config, [fooHandler, barHandler])
+exports.handler = skillShare
+  .skill(config, [fooHandler, barHandler])
+  .create()
 ```
