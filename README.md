@@ -2,6 +2,8 @@
 
 This library is intended to provide some tools to make it eash to compose various intents and state handlers into an Alexa lambda handler.
 
+In theory you should be able to make a streaming skill with the
+
 ```js
 // index.js
 
