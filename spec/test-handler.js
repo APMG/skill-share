@@ -1,4 +1,4 @@
-var skillShare = require('../src/handlers')
+var skillShare = require('../src/index')
 var intents = require('../src/intents')
 var config = require('./test-config')
 
