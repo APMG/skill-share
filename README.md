@@ -1,6 +1,6 @@
 # Alexa Skill Share
 
-This library is intended to provide some tools to make it eash to compose various intents and state handlers into an Alexa lambda handler.
+This library is intended to provide some tools to reduce boilerplate and make it easy to compose various intents and state handlers into an Alexa lambda handler.
 
 In theory you should be able to make a basic streaming skill with the following:
 
