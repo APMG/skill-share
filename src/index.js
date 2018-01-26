@@ -3,6 +3,7 @@ var get = require('lodash.get')
 var defaultConfig = require('./default-config')
 
 exports.intents = require('./intents')
+exports.user = require('./user')
 
 exports.stateHandler = function handler(state, intents) {
   return {
