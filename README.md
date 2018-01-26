@@ -8,12 +8,11 @@ In theory you should be able to make a streaming skill with the
 // index.js
 
 var skillShare = require('skill-share')
-var intents = skillShare.intents
 var config = require('./config')
 
 var handler = skillShare.handler('', [
-  intents.defaultBuiltIns,
-  intents.builtInAudio
+  skillShare.intents.defaultBuiltIns,
+  skillShare.intents.builtInAudio
 ])
 
 exports.handler = skillShare
