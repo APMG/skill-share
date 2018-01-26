@@ -66,12 +66,19 @@ var skillShare = require('skill-share')
 var myHelpIntent = require('./my-help-intent.js')
 
 var stateHandler = skillShare.stateHandler('', [
+  skillShare.intents.defaultBuiltIns,
+  myHelpIntent
+])
+```
+
+You could also add it later
+```js
+var stateHandler = skillShare.stateHandler('', [
   skillShare.intents.defaultBuiltIns
 ])
 
 stateHandler.addIntents([myHelpIntent])
 ```
-
 ## Using Multiple States
 All handlers are passed through `Alexa.CreateStateHandler`. So to have them apply to a state, just give them a state name.
 
