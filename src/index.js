@@ -1,5 +1,6 @@
 var Alexa = require('alexa-sdk')
 var get = require('lodash.get')
+var defaultConfig = require('./default-config')
 
 exports.intents = require('./intents')
 
@@ -29,7 +30,7 @@ exports.handler = function handler(state, intents) {
 
 exports.skill = function(config, handlers) {
   return {
-    config: config || {},
+    config: Object.assign(defaultConfig, config || {}),
     handlers: handlers || [],
     addHandler: function(newHandler) {
       var existing = this.handlers.filter(function(h) {

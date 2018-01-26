@@ -11,7 +11,7 @@ const builtIns = {
     directives.addPlayDirective(this, config.STREAM_URL)
     this.response
       .cardRenderer(config.CARD_TITLE, config.CARD_CONTENT)
-      .speak(config.SPOKEN_WELCOME || 'Welcome to ' + config.STATION_NAME)
+      .speak(config.SPOKEN_WELCOME || 'Welcome to ' + config.STREAM_NAME)
 
     this.emit(':responseReady')
   },

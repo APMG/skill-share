@@ -64,7 +64,7 @@ function buildMessage (program) {
 
   msg = msg.trim()
 
-  return msg || config.STATION_NAME
+  return msg || config.STREAM_NAME
 }
 
 function handleHostPhonemes (hosts) {
