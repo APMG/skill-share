@@ -28,6 +28,9 @@ exports.handler = skillShare
   .create()
 ```
 
+## Why Might This Be Important?
+It establishes a convention that should make it very easy for different organizations to create and share reusable intents and state handlers. If your project contains a file that exports a `skill-share` intent, my project can use it.
+
 ## Creating Custom Intents
 An intent here is defined as a function that accepts a config object (you don't have to use it but you're going to get it anyway) and returns an object in which the keys are intent names and the values are callbacks:
 

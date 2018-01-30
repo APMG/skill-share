@@ -45,7 +45,7 @@ exports.skill = function(config, handlers) {
 
       this.handlers.map(function(h, i) {
         if (h.state === stateName) {
-          this.handlers[i].addIntents(newStateHandler.intents)
+          this.handlers[i].addIntents(newHandler.intents)
         }
       })
 
