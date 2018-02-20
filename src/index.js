@@ -4,6 +4,7 @@ var defaultConfig = require('./default-config')
 
 exports.intents = require('./intents')
 exports.user = require('./user')
+exports.directives = require('./directives')
 
 exports.stateHandler = function handler(state, intents) {
   return {
