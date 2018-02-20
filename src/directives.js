@@ -1,10 +1,12 @@
-exports.addPlayDirective = function (context, streamUrl) {
+exports.addPlayDirective = function (context, streamUrl, behavior, trackNumber, next, begin) {
+  // Defaults configured here are ideal for a streaming response
+  // For more options see https://developer.amazon.com/docs/custom-skills/audioplayer-interface-reference.html#play
   context.response.audioPlayerPlay(
-    'REPLACE_ALL', // replace the entire queue with the new url
+    behavior || 'REPLACE_ALL',
     streamUrl,
-    '1', // this is the track number. We are streaming live so it's only ever one track
-    null, // this would be the anticipated "next" track, if there were one
-    0 // where in the track to begin playing from, in milliseconds
+    trackNumber || '1',
+    next || null,
+    begin || 0
   )
 }
 
