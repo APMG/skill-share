@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "alexa-sdk": "^1.0.14",
+    "electron": "^1.8.2",
     "got": "^7.1.0",
     "lodash.get": "^4.4.2"
   },
