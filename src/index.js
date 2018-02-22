@@ -1,5 +1,6 @@
 var Alexa = require('alexa-sdk')
 var get = require('lodash.get')
+var isFunction = require('lodash.isfunction')
 var defaultConfig = require('./default-config')
 
 exports.intents = require('./intents')
@@ -21,7 +22,11 @@ exports.stateHandler = function handler(state, intents) {
       return this
     },
     create: function(config) {
-      intents = this.intents.map(function(intent) {
+      intents = this.intents.map(function(intent, i) {
+        if (!isFunction(intent)) {
+          console.log('ERROR', 'Expected intent to be a function in "' + this.state + '" state handler. Got:', intent)
+          throw 'Expected intent at index ' + i + ' to be a function in "' + this.state + '" state handler. See logs for details'
+        }
         return intent(config)
       })
       intents = Object.assign({}, ...intents)

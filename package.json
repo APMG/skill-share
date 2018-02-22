@@ -10,7 +10,8 @@
     "aws-sdk": "^2.3.0",
     "electron": "^1.8.2",
     "got": "^7.1.0",
-    "lodash.get": "^4.4.2"
+    "lodash.get": "^4.4.2",
+    "lodash.isfunction": "^3.0.9"
   },
   "devDependencies": {
     "got-test": "^1.0.2",
