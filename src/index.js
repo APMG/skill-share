@@ -24,7 +24,7 @@ exports.stateHandler = function handler(state, intents) {
     create: function(config) {
       intents = this.intents.map(function(intent, i) {
         if (!isFunction(intent)) {
-          console.log('ERROR', 'Expected intent to be a function in "' + this.state + '" state handler. Got:', intent)
+          console.log('ERROR', 'Expected intent at index ' + i + ' to be a function in "' + this.state + '" state handler. Got:', intent)
           throw 'Expected intent at index ' + i + ' to be a function in "' + this.state + '" state handler. See logs for details'
         }
         return intent(config)
